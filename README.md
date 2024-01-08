@@ -3,6 +3,8 @@
 
 ## Introduction
 
+https://pypi.org/project/sequentiality/0.0.1/
+
 Sequentiality is a Python package designed for extracting key features from a list of integers. It specializes in identifying various forms of Longest Consecutive Subsequences (LCS) within an integer list. This functionality is crucial for data analysis, statistical assessments, and algorithmic processing in numerous fields.
 
 ## Table of Contents
@@ -18,13 +20,11 @@ Sequentiality is a Python package designed for extracting key features from a li
 
 ## Installation
 
-*Instructions on how to install the Sequentiality package.*
+```python
+pip install sequentiality
+```
 
-## Usage
-
-*General instructions on how to use the package after installation.*
-
-## Features
+## Features & Usage
 
 Sequentiality provides methods for the following feature extraction capabilities:
 
@@ -40,17 +40,6 @@ Additional utility methods:
 - **find_sequential_elements_with_difference_of_2**: Finds pairs in the sequence with a difference of 2.
 - **find_sequential_elements_with_difference_of_3**: Finds pairs in the sequence with a difference of 3.
 
-## Dependencies
-
-*Details about any libraries or frameworks that Sequentiality depends on.*
-
-## Documentation
-
-*Link to the full documentation or instructions on how to access it.*
-
-## Examples
-
-Here are some examples of how to use Sequentiality:
 
 ```python
 seq = Sequentiality()
@@ -63,15 +52,16 @@ print(seq.find_LongestConseqSubseq_from_end_with_1_gap(sample))
 print(seq.find_LongestConseqSubseq_from_end_with_2_gap(sample))
 ```
 
-## Contributors
+## Documentation
 
-*Information about the individuals or organizations that contributed to Sequentiality.*
+https://github.com/karaposu/sequentiality
+
 
 ## License
 
 MIT License
 
-Copyright (c) [year] [your name or organization]
+Copyright (c) 2024 Enes Kuzucu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
