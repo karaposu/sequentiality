@@ -11,10 +11,8 @@ Sequentiality is a Python package designed for extracting key features from a li
 - [Usage](#usage)
 - [Features](#features)
 - [Dependencies](#dependencies)
-- [Configuration](#configuration)
 - [Documentation](#documentation)
 - [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -46,21 +44,24 @@ Additional utility methods:
 
 *Details about any libraries or frameworks that Sequentiality depends on.*
 
-## Configuration
-
-*Information on how to configure the package, if applicable.*
-
 ## Documentation
 
 *Link to the full documentation or instructions on how to access it.*
 
 ## Examples
 
-*Code snippets or examples of how to use the features of Sequentiality.*
+Here are some examples of how to use Sequentiality:
 
-## Troubleshooting
-
-*Common issues and their solutions or tips on how to solve potential problems.*
+```python
+seq = Sequentiality()
+sample = [1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 16]
+print(seq.find_LongestConseqSubseq(sample))
+print(seq.find_LongestConseqSubseq_1gap(sample))
+print(seq.find_LongestConseqSubseq_2gap(sample))
+print(seq.find_LongestConseqSubseq_from_end(sample))
+print(seq.find_LongestConseqSubseq_from_end_with_1_gap(sample))
+print(seq.find_LongestConseqSubseq_from_end_with_2_gap(sample))
+```
 
 ## Contributors
 
@@ -68,4 +69,12 @@ Additional utility methods:
 
 ## License
 
-*License information or a link to the license details.*
+MIT License
+
+Copyright (c) [year] [your name or organization]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
