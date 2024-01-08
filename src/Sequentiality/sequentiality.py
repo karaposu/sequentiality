@@ -1,7 +1,3 @@
-import numpy as np
-import pandas as pd
-
-
 
 class Sequentiality:
   def __init__(self):
