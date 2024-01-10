@@ -18,10 +18,14 @@ Sequentiality is a Python package designed for extracting key features from a li
 - [Contributors](#contributors)
 - [License](#license)
 
-## Installation
+## Installation & Importing
 
 ```python
 pip install sequentiality
+```
+
+```python
+from Sequentiality import Sequentiality
 ```
 
 ## Features & Usage
