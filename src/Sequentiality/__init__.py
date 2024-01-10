@@ -1,1 +1,2 @@
-from sequentiality import Sequentiality
+
+from .sequentiality import Sequentiality
